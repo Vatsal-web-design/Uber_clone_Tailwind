@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber Tailwind</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="uber-Tailwind.css">
+</head>
+
+<body>
+
+    <nav class="flex  bg-black text-white justify-between items-center px-12 ">
+        <div class="flex mr-10">
+            <h1 class="m-3 mr-6 text-2xl">Uber</h1>
+            <ul class="flex gap-8 m-4  lg:inline-flex max-md:hidden md:hidden sm:hidden max-sm:hidden ">
+                <li>Ride</li>
+                <li>Drive</li>
+                <li>Business</li>
+                <li>Uber Eats</li>
+                <li>About <i class="fa-solid fa-chevron-down" style="color: #f7f7f8;"></i></li>
+
+            </ul>
+        </div>
+        <div class="flex m-6 gap-6">
+            <div class="flex gap-6 lg:inline-flex md:hidden max-md:hidden sm:hidden max-sm:hidden">
+                <i class="fa-solid mt-1 -mr-5 fa-globe -rotate-45" style="color: #ffffff;"></i>
+                <span class="">EN</span>
+                <span>help</span>
+            </div>
+            <div class="flex gap-6">
+                <span>Login</span>
+                <button class="bg-white text-black h-8 rounded-full px-2 py-1">Sign up</button>
+                <i class="fa-solid m-2 fa-bars lg:hidden md:inline-flex max-sm:inline-flex" style="color: #ffffff;"></i>
+            </div>
+        </div>
+    </nav>
+    <section
+        class="bg-black lg:pt-16  md:p-6 sm:p-6 flex-col p-6 text-white  md:justify-start   lg:justify-center gap-24 flex sm:flex-col md:flex-col lg:flex-row">
+        <div class="lg:flex-col lg:pt-40 lg:pr-6">
+            <h1 class="lg:text-5xl md:text-4xl sm:text-4xl text-4xl inline font-bold  md:inline sm:inline">Go anywhere
+                with </h1>
+            <h1 class="lg:text-5xl md:text-4xl sm:text-4xl text-4xl inline font-bold lg:block md:inline sm:inline">Uber
+            </h1>
+            <h3 class="mt-10 mb-3">Request a trip, hop in, and go.</h3>
+            <div class="bg-white w-[340px] px-1 rounded-lg">
+                <input type="text" name="" id="" class="h-12 px-8 w-72" placeholder="Enter location">
+                <i class="fa-solid fa-location-arrow fa-2xl pl-1" style="color: #141415;"></i>
+            </div>
+            <input type="text" name="" id=""
+                class="h-12 px-8 mt-5  bg-white w-[340px] rounded-lg lg:h-12 lg:px-8 lg:mt-5 lg:w-[340px] mg:h-12 md:px-8 md:mt-5 md:w-[340px] sm:h-12 sm:px-8 sm:mt-5 sm:w-[340px]  "
+                placeholder="Enter destination">
+            <button class="bg-white  text-black block md:block sm:block lg:block mt-9 p-3 rounded-lg">See
+                prices</button>
+
+        </div>
+
+        <img class=" lg:h-3/5 lg:w-2/5 lg:pb-16 md:h-full md:w-full" src="uber-img/Uber-1.webp" alt="">
+    </section>
+    <section class="bg-white md:justify-center md:items-center lg:flex p-10 md:flex-col-reversess">
+        <img class="lg:h-3/5 lg:w-2/5 lg:mt-20 lg:ml-40  md:p-7   sm:p-7  p-7" src="uber-img/uber-2.webp" alt="">
+
+        <div class="lg:flex-col md:p-8 sm:p-8 ">
+            <div class="md:flex lg:flex-col sm:flex flex ">
+                <div class="lg:text-5xl font-bold lg:pl-28 lg:mb-3 lg:whitespace-nowrap md:whitespace-normal">Drive when
+                    you</div>
+                <div class="lg:text-5xl font-bold lg:pl-28 lg:mb-3 lg:whitespace-nowrap md:whitespace-normal"> want make
+                    what </div>
+                <div class="lg:text-5xl font-bold lg:pl-28  lg:whitespace-nowrap md:"> you need</div>
+            </div>
+            <div class="text-xl lg:mx-28 lg:mt-10 ">Make money on your schedule with deliveries or trips – or both. You
+                can use your own car or choose a hire vehicle through Uber.</div>
+            <div class="flex gap-5">
+                <button class="bg-black text-white lg:ml-28 py-3 px-5 font-bold rounded-lg mt-7">Get started</button>
+                <div class="mt-10 underline lg:text-sm underline-offset-8 ">Already have an account? Sign in</div>
+            </div>
+        </div>
+
+
+    </section>
+    <section class="bg-white md:justify-center md:items-center lg:flex md:p-10 p-10 gap-20  ">
+
+        <div class="lg:flex-col md:pb-10 ">
+            <div class="md:flex lg:flex-col sm:flex flex ">
+                <div class="lg:text-5xl font-bold lg:pl-28 lg:mb-3 lg:whitespace-nowrap whitespace-normal">The Uber you
+                </div>
+                <div class="lg:text-5xl font-bold lg:pl-28 lg:mb-3 lg:whitespace-nowrap whitespace-normal"> know,
+                    reimagined</div>
+                <div class="lg:text-5xl font-bold lg:pl-28  lg:whitespace-nowrap whitespace-normal "> for business</div>
+            </div>
+            <div class="text-xl lg:px-28 lg:pt-10 ">Uber for Business is a platform for managing global trips and meals,
+                as well as local deliveries, for companies of any size.</div>
+            <div class="flex gap-5">
+                <button class="bg-black text-white lg:ml-28 py-3 px-5 font-bold rounded-lg mt-7">Get started</button>
+                <div class="mt-10 underline lg:text-sm underline-offset-8 ">
+                    Check out our solutions</div>
+            </div>
+        </div>
+        <img class="lg:h-3/5 lg:w-2/5 lg:mt-20 lg:mr-3 lg:mb-20  md:mr-28  md:p-7  sm:p-7  p-7 "
+            src="uber-img/uber-3.webp" alt="">
+    </section>
+
+    <section class="bg-slate-100 pt-16 lg:pb-16 lg:px-60 md:px-40 px-24 h-full pb-10 md:-mb-5">
+        <h1 class=" font-bold lg:text-5xl lg:pb-7  md:text-4xl md:whitespace-nowrap sm:text-2xl whitespace-nowrap mb-6">
+            It’s easier in the apps</h1>
+        <div class="lg:flex gap-10 justify-center items-center  ">
+            <div class="bg-white flex lg:p-7 px-5 lg:h-[180px] lg:min-w-[480px] mb-8 justify-start items-center ">
+                <img class="h-full lg:block hidden" src="uber-img/qr-1.webp" alt="">
+                <img class="md:h-24 md:w-24 sm:h-24 sm:w-24 h-20 w-20 lg:hidden my-2" src="uber-img/uber-logo.webp"
+                    alt="">
+
+                <div class="flex-col pl-5 py-8 pr-6 gap-3 ">
+                    <h1
+                        class="lg:text-xl font-bold ld:whitespace-nowrap md:whitespace-normal sm:whitespace-nowrap md:text-2xl sm:text-2xl text-sm   ">
+                        Download the Uber app</h1>
+                    <span class="lg:block hidden"> Scan to download</span>
+                </div>
+                <!-- <i class="fa-regular fa-arrow-right"></i> -->
+
+            </div>
+
+
+            <div class="bg-white flex lg:p-7 px-5 lg:h-[180px] lg:min-w-[480px] mb-8  justify-start items-center ">
+                <img class="h-full hidden lg:block" src="uber-img/qr-2.webp" alt="">
+                <img class="md:h-24 md:w-24 sm:h-24 sm:w-24 h-20 w-20 lg:hidden my-2" src="uber-img/uber-logo.webp"
+                    alt="">
+                <div class="flex-col pl-5 py-8 pr-6 gap-3 ">
+                    <h1
+                        class="lg:text-xl font-bold ld:whitespace-nowrap md:whitespace-normal sm:whitespace-nowrap md:text-2xl sm:text-2xl text-sm   ">
+                        Download the Uber app</h1>
+                    <span class="lg:block hidden"> Scan to download</span>
+                </div>
+                <!-- <i class="fa-regular fa-arrow-right"></i> -->
+            </div>
+    </section>
+
+    <div class="footer bg-black text-white w-screen h-screen justify-center">
+        <div class="f-1 lg:flex lg:justify-around lg:items-center pl-6 ">
+            <div class="flex-col">
+                <h1 class="text-2xl pt-32">Uber</h1>
+                <h3 class="pt-9">Visit Help Center</h3>
+            </div>
+            <div class="pt-14">
+                <div class="flex lg:flex-col gap-1">
+                    <h3>Download Uber Modern Slavery Act Transparency <span class="lg:hidden block">Statement</span>
+                    </h3>
+                    <h3 class="lg:pl-72 lg:block hidden">Statement</h3>
+                </div>
+                <div class="pt-3 flex lg:flex-col gap-1">
+                    <h3>Download Uber Modern Slavery Act Transparency <span class="lg:hidden block">Statement</span>
+                    </h3>
+                    <h3 class="lg:pl-72 lg:block hidden">Statement</h3>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div
+            class="f-2 lg:grid-cols-4 lg:justify-center  lg:items-center md:grid-cols-2  grid lg:pl-56 lg:pt-20 pb-4  gap-10 pl-6 pt-5 bg-black md:pl-6 md:pt-12">
+
+            <div class="company grid gap-6  ">
+                <h2 class="text-xl font-bold">Company</h2>
+                <h1>About us</h1>
+                <h1>Our offerings</h1>
+                <h1>Newsroom</h1>
+                <h1>Investors</h1>
+                <h1>Investors</h1>
+                <h1>Careers</h1>
+                <h1>AI</h1>
+                <h1>Gift cards</h1>
+            </div>
+            <div class="company grid gap-3 lg:pb-36">
+                <h2 class="text-xl font-bold">Products</h2>
+                <h1>Ride</h1>
+                <h1>Drive</h1>
+                <h1>Dliver</h1>
+                <h1>Eat</h1>
+                <h1>Uber for Business</h1>
+                <h1>Uber Freight</h1>
+            </div>
+            <div class="company grid gap-3 md:pt-9 lg:pb-72">
+                <h2 class="text-xl font-bold">Global citizenship</h2>
+                <h1>Safety</h1>
+                <h1>Diversity and Inclusion</h1>
+                <h1>Sustainability</h1>
+            </div>
+            <div class="company grid gap-3 md:pt-9 lg:pb-72">
+                <h2 class="text-xl font-bold">Travel</h2>
+                <h1>Reserve</h1>
+                <h1>Airports</h1>
+                <h1>Cities</h1>
+            </div>
+
+        </div>
+
+        <div class="f-3 p-6 bg-black lg:flex justify-between  py-10">
+            <div class="flex  gap-8 lg:gap-20 md:gap-20 lg:pl-52  sm:gap-20 ">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="lg:flex gap-7 lg:pt-0 lg:pr-24 pt-8">
+                <div class="flex gap-4 pb-4 ">
+                    <i class="fa-solid mt-1 fa-globe -rotate-45" style="color: #ffffff;"></i>
+                    <h3>English</h3>
+                </div>
+                <div class="flex gap-4">
+                    <i class="fa-solid pt-1 fa-location-dot"></i>
+                    <h3 class="">London</h3>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="flex gap-3 bg-black lg:pl-56 pl-6 pb-10">
+            <img src="uber-img/gp-1.svg" alt="" class="h-16 w-24">
+            <img src="uber-img/ap-1.svg" alt="" class="h-16 w-24">
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
